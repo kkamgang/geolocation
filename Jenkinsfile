@@ -23,12 +23,7 @@ triggers {
             }
         }
 
-        stage('test') {
-            steps {
-                echo 'test'
-                
-            }
-        }
+       
         stage('Deploy') {
             steps {
                 echo 'deploy'
